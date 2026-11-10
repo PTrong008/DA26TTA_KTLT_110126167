@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    
+    printf("Nhap so nguyen a: ");
+    scanf("%d", &a);
+    printf("Nhap so nguyen b: ");
+    scanf("%d", &b);
+
+    
+    printf("Tong (%d + %d) = %d\n", a, b, a + b);
+    printf("Hieu (%d - %d) = %d\n", a, b, a - b);
+    printf("Tich (%d * %d) = %d\n", a, b, a * b);
+
+    if (b == 0) {
+        printf("Khong thể chia cho 0!\n");
+    } else {
+        printf("Thuong (%d / %d) = %.2f\n", a, b, (float)a / b);
+    }
+
+    return 0;
+}
