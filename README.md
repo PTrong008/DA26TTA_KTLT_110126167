@@ -1,1 +1,3 @@
-# DA26TTA_KTLT_110126167
+Nội dung đã thực hiện :
+- Viết chương trình nhập Xuất trong c
+- Lưu mã nguồn bằng GitHup
